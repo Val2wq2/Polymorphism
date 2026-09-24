@@ -35,7 +35,7 @@ public class Main {
         BSU_Member []members = new BSU_Member[10];
 
         BSU_Member b1, b2;
-        // Creating an object of student type and storing the reference in a BSU_Member type variable
+        // Creating an object of student type and storing the reference in a BSU_Member type variable124
         b1 = new Student();
         b2 = new Instructor();
 
