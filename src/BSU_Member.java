@@ -7,10 +7,10 @@ public class BSU_Member {
     // Lab work: Create default constructor and overloaded constructor, setter and getter
 
     BSU_Member(){
-        this.id = id;
+        this.id = 230445;
         this.name = "Oluwatosin";
-        this.gender = gender;
-        this.age = age;
+        this.gender = 'M';
+        this.age = 18;
         this.status = "Unknown";
     }
 

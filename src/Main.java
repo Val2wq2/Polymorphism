@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// https://github.com/Val2wq2/Polymorphism
 public class Main {
     public static void main(String[] args) {
         Course c1 = new Course();
@@ -50,7 +49,7 @@ public class Main {
         members[5] = new Student();
         members[6] = new Student(3.5);
         members[7] = new Student(3.8, "Student", new Course[]{math141, eng102});
-        members[8] = new BSU_Member(200, "Sam Perez", 'M', 30, "Staff");
+        members[8] = new BSU_Member(200, "Avjoy Chakam", 'M', 30, "Staff");
         members[9] = new BSU_Member(201, "Robin Diaz", 'F', 22, "Alumni");
 
         System.out.println("==========================");
