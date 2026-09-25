@@ -8,10 +8,10 @@ public class BSU_Member {
 
     BSU_Member(){
         this.id = id;
-        this.name = name;
+        this.name = "Oluwatosin";
         this.gender = gender;
         this.age = age;
-        this.status = status;
+        this.status = "Unknown";
     }
 
     BSU_Member(int id, String name, char gender, int age, String status){
@@ -42,8 +42,25 @@ public class BSU_Member {
         this.status = status;
     }
 
+    public int getAge() {
+        return this.age;
+    }
 
+    public String getName() {
+        return this.name;
+    }
 
+    public int getId() {
+        return this.id;
+    }
+
+    public char getGender() {
+        return this.gender;
+    }
+
+    public String getStatus() {
+        return this.status;
+    }
 
     public void display_information(){
         System.out.println("Status: "+ status);

@@ -43,9 +43,15 @@ public class Main {
         members[1] = b2;
 
         System.out.println("==========================");
-        for(int j =2; j<10; j++) {
-            members[j] = new BSU_Member();
-        }
+
+        members[2] = new Instructor();
+        members[3] = new Instructor("Math");
+        members[4] = new Instructor(45, "Faculty", "Computer Science");
+        members[5] = new Student();
+        members[6] = new Student(3.5);
+        members[7] = new Student(3.8, "Student", new Course[]{math141, eng102});
+        members[8] = new BSU_Member(200, "Sam Perez", 'M', 30, "Staff");
+        members[9] = new BSU_Member(201, "Robin Diaz", 'F', 22, "Alumni");
 
         System.out.println("==========================");
 

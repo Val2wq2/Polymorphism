@@ -72,7 +72,10 @@ public class COSC113 extends Course {
     @Override
     public void display_course_information() {
         // Lab work - use super.ATTRIBUTE-NAME inside a print statement
-        super.display_course_information();
+//        super.display_course_information();
+        System.out.println("Course name: " + super.name + " Course number: " +
+                super.course_number);
+
         System.out.println("Syllabus: "+ this.syllabus + " Language: " + this.coding_language +
                 " Instructor: "+ this.i1 + " Students: "+ this.students);
     }
