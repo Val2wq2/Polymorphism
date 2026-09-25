@@ -50,7 +50,7 @@ public class Main {
         members[6] = new Student(3.5);
         members[7] = new Student(3.8, "Student", new Course[]{math141, eng102});
         members[8] = new BSU_Member(200, "Avjoy Chakam", 'M', 30, "Staff");
-        members[9] = new BSU_Member(201, "Robin Diaz", 'F', 22, "Alumni");
+        members[9] = new BSU_Member(201, "Robi", 'F', 22, "Alumni");
 
         System.out.println("==========================");
 

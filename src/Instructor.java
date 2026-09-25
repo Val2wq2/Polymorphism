@@ -7,7 +7,7 @@ public class Instructor extends BSU_Member{
     }
 
     Instructor( String department){
-        this.department = "CS";
+        this.department = department;
         this.status = "Faculty";
     }
 

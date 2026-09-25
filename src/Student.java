@@ -11,12 +11,14 @@ public class Student extends BSU_Member {
 
     Student(double gpa){
         this.gpa = gpa;
+        this.enrolled_courses = new Course[6];
+        this.status = "Student";
     }
 
     Student(double gpa, String status, Course [] enrolled_courses){
         this.gpa = 0;
-        this.enrolled_courses = new Course[6];
         this.status = "Student";
+        this.enrolled_courses = enrolled_courses;
     }
 
 
@@ -26,6 +28,6 @@ public class Student extends BSU_Member {
 
     @Override
     public void display_information(){
-        System.out.println("Inside Studnet ------ Status: "+ status);
+        System.out.println("Inside Student ------ Status: "+ status);
     }
 }
