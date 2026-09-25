@@ -9,6 +9,13 @@ public class Student extends BSU_Member {
         this.status = "Student";
     }
 
+    Student(double gpa, String status, Course [] enrolled_courses){
+        this.gpa = 0;
+        this.enrolled_courses = new Course[6];
+        this.status = "Student";
+    }
+
+
     public Course[] get_Enrolled_Courses(){
         return this.enrolled_courses;
     }

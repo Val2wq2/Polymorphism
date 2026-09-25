@@ -20,6 +20,39 @@ public class Course {
         this.name = name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setCourse_number(int courseNumber){
+        this.course_number = courseNumber;
+    }
+
+    public void setCredit(int credit){
+        this.credit = credit;
+    }
+
+    private void setClassroom(String classroom){
+        this.classroom = classroom;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public int getCourse_number(){
+        return this.course_number;
+    }
+
+    public int getCredit(){
+        return this.credit;
+    }
+
+    private String getClassroom(){
+        return this.classroom;
+    }
+
+
     // Setters and getters are similar to methods
     // Methods signature: Acccess_modifier, Return_type, Method_name (Param_type Param_name){}
     // Return types: void,int, String, boolean, char, array of objects

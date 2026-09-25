@@ -19,6 +19,38 @@ public class COSC113 extends Course {
         this.name = "COSC113";
     }
 
+    public void setSyllabus(String syllabus){
+        this.syllabus = syllabus;
+    }
+
+    public void setCoding_language(String coding_language){
+        this.coding_language = coding_language;
+    }
+
+    public void setI1(Instructor i1){
+        this.i1 = i1;
+    }
+
+    public void setStudents(Student[] students){
+        this.students = students;
+    }
+
+    public String getSyllabus(){
+        return this.syllabus;
+    }
+
+    public String getCoding_language(){
+        return this.coding_language;
+    }
+
+    public Instructor getI1(){
+        return this.i1;
+    }
+
+    public Student [] getStudents(){
+        return this.students;
+    }
+
     // Parent class Constructors are not inherited, but can be invoked/called
     COSC113(int course_number, int credit, String name){
         // super() wil invoke the parent class's default constructor - Course()
